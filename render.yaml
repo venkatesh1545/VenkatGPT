@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: venkatgpt-api
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash-preview-04-17
+      - key: GITHUB_USERNAME
+        value: venkatesh1545
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: APP_ENV
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: ALLOWED_ORIGINS
+        value: '["https://venkatgpt.vercel.app","https://itsvenky.vercel.app"]'
