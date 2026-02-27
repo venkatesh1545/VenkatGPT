@@ -1,0 +1,519 @@
+{
+  "identity": {
+    "name": "Venkat",
+    "full_name": "Golthi Venkatacharyulu",
+    "tagline": "Full Stack AI Engineer | AI Systems Builder | Cloud-Native Developer",
+    "summary": "I'm a Full Stack AI Engineer passionate about building intelligent, production-ready systems that solve real-world problems. From AI-powered disaster management platforms built for state governments to RAG-based portfolio engines \u2014 I build products where AI meets real engineering rigor. I specialize in LLMs, RAG pipelines, computer vision, and cloud-native backends. Currently working as an AI Research Associate at Keywords Studios, Bangalore.",
+    "location": "Bangalore, India",
+    "email": "venkateshgolthi07@gmail.com",
+    "phone": "+91-7995775401",
+    "linkedin": "https://www.linkedin.com/in/golthi-venkatacharyulu/",
+    "github": "https://github.com/venkatesh1545",
+    "portfolio_url": "https://itsvenky.vercel.app/",
+    "years_of_experience": 1,
+    "all_certificates_url": "https://drive.google.com/drive/folders/your-certificates-folder-link-here",
+    "github_stats": {
+      "username": "venkatesh1545",
+      "profile_url": "https://github.com/venkatesh1545",
+      "public_repos": 25,
+      "total_stars": 0,
+      "followers": 0,
+      "following": 0,
+      "note": "Update public_repos, total_stars, followers from github.com/venkatesh1545"
+    },
+    "work_preferences": {
+      "relocation": "Yes \u2014 open to relocate anywhere in India or abroad",
+      "remote_work": "Yes \u2014 fully comfortable with remote, hybrid, or on-site",
+      "preferred_locations": [
+        "Bangalore",
+        "Hyderabad",
+        "Mumbai",
+        "Pune",
+        "Chennai",
+        "Remote",
+        "Any location globally"
+      ],
+      "notice_period": "Immediate to 30 days",
+      "employment_type": [
+        "Full-time",
+        "Contract",
+        "Freelance"
+      ],
+      "open_to": "Any location \u2014 what matters most is the quality of work, team, and the problem being solved. I'm ready to relocate for the right opportunity."
+    }
+  },
+  "skills": {
+    "programming": [
+      "Python",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "SQL"
+    ],
+    "backend": [
+      "FastAPI",
+      "Node.js",
+      "Supabase Edge Functions",
+      "REST APIs",
+      "GraphQL"
+    ],
+    "frontend": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "HTML5",
+      "CSS3"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "FAISS",
+      "Pinecone",
+      "SQLite",
+      "DynamoDB",
+      "Supabase"
+    ],
+    "cloud": [
+      "AWS (EC2, ECS, S3, Lambda, RDS, CloudFront, Rekognition, API Gateway, DynamoDB, Kinesis)",
+      "GCP (Cloud Run, Firestore)",
+      "Vercel",
+      "Railway",
+      "Supabase"
+    ],
+    "devops": [
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "Nginx",
+      "CI/CD",
+      "Vercel Deployment"
+    ],
+    "ai_ml": [
+      "RAG Pipelines",
+      "LLM Integration (Ollama, Claude API, OpenAI API, Gemini API)",
+      "HuggingFace Transformers",
+      "LangChain",
+      "FAISS",
+      "Sentence Transformers",
+      "AWS Rekognition",
+      "Computer Vision (OpenCV)",
+      "PyTorch",
+      "Vector Embeddings",
+      "Prompt Engineering",
+      "Fine-tuning (LoRA/QLoRA)"
+    ],
+    "tools": [
+      "Git",
+      "VS Code",
+      "Cursor",
+      "Postman",
+      "Jira",
+      "Notion",
+      "Supabase Studio"
+    ]
+  },
+  "strengths": [
+    "Building AI-powered real-world systems from scratch \u2014 including a SEED project for the Andhra Pradesh state government",
+    "Designing production-ready RAG pipelines with zero hallucination guarantees",
+    "Full-stack ownership: from database schema design to cloud deployment pipelines",
+    "Integrating multi-modal AI: LLMs, computer vision, geospatial intelligence in a single system",
+    "Fast learner who ships \u2014 validated XpressPrints MVP with 40+ real orders and \u20b910k+ revenue",
+    "Hackathon-tested engineer: top 30 in Adobe GenSolve (India), top 50 in Amdocs Hackathon"
+  ],
+  "projects": [
+    {
+      "name": "DroneX \u2014 RavNResQ: AI-Powered Disaster Management Platform",
+      "slug": "dronex-ravnresq",
+      "category": "AI + Computer Vision + Government",
+      "priority": "flagship",
+      "description": "A SEED PROJECT built for the Andhra Pradesh State Government \u2014 an AI-powered disaster management platform that combines live drone video streaming, real-time object detection, and an intelligent LLM assistant to support faster and safer emergency response. The system ingests live drone feeds, analyzes scenes for hazards and victims, and guides responders through a unified web dashboard.",
+      "impact": "Built for AP State Government as a SEED project. Reduces situational assessment time, improves victim and hazard detection, and enables coordinated multi-team emergency response.",
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Supabase",
+        "AWS Rekognition",
+        "AWS Kinesis Video Streams",
+        "Ollama LLM",
+        "OpenCV",
+        "Geolocation APIs",
+        "Real-time Streaming",
+        "Map Visualizations"
+      ],
+      "architecture": "Live drone feeds \u2192 AWS Kinesis Video Streams \u2192 React dashboard with real-time streaming UI \u2192 AWS Rekognition for object/hazard detection \u2192 Ollama LLM for conversational emergency guidance \u2192 Geolocation + routing APIs for safe zone and evacuation route recommendations \u2192 Supabase for auth, multi-user coordination, and role-based access control.",
+      "challenges": "Real-time video streaming at low latency from field drones was the hardest engineering challenge. Integrated AWS Kinesis for production-grade streaming. AWS Rekognition needed custom tuning to detect debris, victims, and hazard objects in disaster-scene imagery. Designed a pluggable CV pipeline to swap Rekognition with YOLO/TensorFlow models.",
+      "demo_url": "",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "",
+      "scalability": "Kinesis Video Streams scales to handle hundreds of simultaneous drone feeds. Supabase handles multi-user role-based access and real-time sync. Modular CV pipeline allows swapping detection models without system changes.",
+      "future": "YOLO v8 integration for faster on-device detection, thermal camera support for night rescue operations, WhatsApp/SMS alert integration for field teams, mobile companion app for first responders."
+    },
+    {
+      "name": "XpressPrints \u2014 Smart Printing Marketplace",
+      "slug": "xpressprints",
+      "category": "Full Stack + Cloud + Marketplace",
+      "priority": "flagship",
+      "description": "A web-based printing marketplace that enables customers to upload documents (PDF, DOCX, images), customize print options (B&W/color, paper size, binding), get instant dynamic quotes, and place orders with nearby print stores for pickup or delivery. MVP validated with 40+ real orders and \u20b910,000+ revenue in Tier-3 city testing.",
+      "impact": "40+ orders, \u20b910k+ revenue in MVP phase. Guest checkout boosted conversions by 40-60%. Commission-based model (8-12%) scalable to multi-city via store subscriptions and broadcast system.",
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Supabase (Auth, PostgreSQL, Edge Functions)",
+        "pdf.js",
+        "mammoth.js",
+        "PhonePe UPI SDK",
+        "AWS (DynamoDB, API Gateway, Lambda)",
+        "Vercel",
+        "QR Code Generation"
+      ],
+      "architecture": "React + TypeScript frontend \u2192 pdf.js for automatic PDF page counting \u2192 mammoth.js for DOCX analysis \u2192 Supabase Edge Functions for backend logic \u2192 PostgreSQL (5+ tables with RLS and triggers) \u2192 PhonePe UPI for payments \u2192 store-specific tiered pricing engine \u2192 WhatsApp/email notifications \u2192 QR code for in-store upload by walk-in customers.",
+      "challenges": "Accurate DOCX page counting was the hardest problem \u2014 built a multi-method analysis combining paragraph count, file size heuristics, and manual override with fraud detection alerts for suspicious discrepancies. Implementing fair multi-vendor order routing (optional store selection vs. broadcast to nearby stores).",
+      "demo_url": "https://itsvenky.vercel.app/",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "",
+      "scalability": "Supabase scales via managed PostgreSQL. Vercel handles global frontend distribution. Store broadcast system supports multi-city expansion via subscriptions. COD + Rapido delivery partnerships already in place.",
+      "future": "Mobile app for store owners, real-time order tracking on map, bulk enterprise printing contracts, AI-based document quality check before printing."
+    },
+    {
+      "name": "VenkatGPT \u2014 AI-Powered Personal Identity Engine",
+      "slug": "venkatgpt",
+      "category": "AI + LLM + RAG",
+      "priority": "flagship",
+      "description": "An AI-powered personal identity engine \u2014 my own AI replica built on a 7-layer RAG pipeline. It answers professional questions strictly from real portfolio data, enforcing persona consistency and zero hallucination. This very application you are using right now.",
+      "impact": "Demonstrates production-grade RAG engineering, persona enforcement, and prompt injection defense \u2014 all in a publicly deployed AI system.",
+      "tech_stack": [
+        "FastAPI",
+        "Python",
+        "Google Gemini API",
+        "FAISS",
+        "Sentence Transformers (all-MiniLM-L6-v2)",
+        "LangChain",
+        "React",
+        "TailwindCSS",
+        "Redis",
+        "Docker",
+        "Vercel"
+      ],
+      "architecture": "7-layer pipeline: portfolio.json + resume PDF + GitHub repos \u2192 Smart Chunker \u2192 SentenceTransformer embeddings \u2192 FAISS vector store \u2192 RAG Engine (semantic retrieval) \u2192 Persona Guard (system prompt + mode overlays) \u2192 Gemini API streaming \u2192 SSE to React frontend. Repo Intelligence layer dynamically fetches GitHub repos on demand and builds per-repo FAISS indexes.",
+      "challenges": "Ensuring zero hallucination required strict context grounding \u2014 the model answers ONLY from retrieved chunks. The Unknown Question Protocol handles knowledge gaps gracefully without breaking persona. Prompt injection defense with 10+ regex patterns for public-facing deployment. Identity block injection ensures GitHub, LinkedIn, and project URLs are always available.",
+      "demo_url": "https://itsvenky.vercel.app/",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "venkatesh1545/venkatgpt",
+      "scalability": "Stateless FastAPI containers load FAISS indexes at startup. Horizontal scaling via ECS. Redis handles rate limiting across instances. Per-repo GitHub indexes cached to avoid repeat API calls.",
+      "future": "Voice interface via Whisper + TTS, real-time GitHub webhook triggers for auto-index refresh, LinkedIn data integration, multimodal resume parsing."
+    },
+    {
+      "name": "CURVETOPIA \u2014 Advanced 2D Shape Classification & Curve Analysis",
+      "slug": "curvetopia",
+      "category": "AI + Computer Vision + Hackathon",
+      "priority": "advanced",
+      "description": "An AI-powered curve analysis tool that detects symmetry and completes irregular curves with 90%+ accuracy. Processes over 10,000 CSV and PNG files with advanced shape classification and visual insights. Built for Adobe GenSolve Hackathon 2024 \u2014 achieved Top 30 ranking in India out of 100,000+ participants.",
+      "impact": "Top 30 in Adobe GenSolve Hackathon 2024 across entire India from 100,000+ participants. 90%+ curve completion accuracy on test dataset of 10,000+ files.",
+      "tech_stack": [
+        "Python",
+        "Flask",
+        "Machine Learning (scikit-learn)",
+        "Computer Vision (OpenCV, NumPy, SciPy)",
+        "Data Visualization (Matplotlib, Plotly)",
+        "HTML",
+        "CSS"
+      ],
+      "architecture": "CSV/PNG input \u2192 preprocessing pipeline (noise removal, normalization) \u2192 symmetry detection algorithm \u2192 curve completion using Bezier/spline interpolation \u2192 ML classifier for shape categorization \u2192 visual output with annotated results and confidence scores.",
+      "challenges": "Handling irregular, noisy, and incomplete curves across 10,000+ diverse inputs at scale. Balancing accuracy vs. speed for real-time visualization. Building symmetry detection robust enough to handle hand-drawn and digitally generated curves.",
+      "demo_url": "",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "",
+      "scalability": "Batch processing pipeline handles 10,000+ files. Flask API supports concurrent requests. Stateless processing enables horizontal scaling.",
+      "future": "Deep learning-based curve completion (GANs), 3D shape support, real-time browser-based curve editor, integration with Adobe Illustrator plugin API."
+    },
+    {
+      "name": "ElevateEd \u2014 AI-Based Interactive Learning Platform",
+      "slug": "elevateed",
+      "category": "AI + EdTech + Hackathon",
+      "priority": "advanced",
+      "description": "A personalized AI learning platform that boosts student engagement by 40% using adaptive learning analytics and AI-powered document summarization. Summarized 10,000+ documents to reduce reading time by 50%. Built for Amdocs Hackathon 2025 \u2014 achieved Top 50 Teams ranking.",
+      "impact": "Top 50 Teams in Amdocs Hackathon 2025. 40% engagement boost, 50% reading time reduction via AI summarization of 10,000+ documents.",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "AWS",
+        "XAMPP",
+        "HuggingFace Transformers (AI Summarization)",
+        "Learning Analytics"
+      ],
+      "architecture": "Student content upload \u2192 HuggingFace transformer models for intelligent summarization \u2192 adaptive quiz generation from summarized content \u2192 learning analytics dashboard tracking engagement, progress, and weak areas \u2192 personalized content recommendations based on performance patterns.",
+      "challenges": "Integrating HuggingFace transformer models for real-time summarization within hackathon constraints. Building adaptive content recommendation without a large labeled dataset \u2014 solved with rule-based heuristics combined with lightweight ML.",
+      "demo_url": "",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "",
+      "scalability": "AWS hosting enables scaling. MySQL optimized with indexes for fast query response on 10,000+ document records.",
+      "future": "Fine-tuned summarization model on educational content, video lecture summarization, real-time collaboration features, LMS integrations."
+    },
+    {
+      "name": "Financial Expenses Tracker \u2014 Cloud-Based Personal Finance App",
+      "slug": "expenses-tracker",
+      "category": "Full Stack + Cloud",
+      "priority": "intermediate",
+      "description": "A full-stack cloud-based application to track and visualize personal income and expenses with real-time data using AWS serverless architecture. Features user authentication, dynamic charts, and a responsive mobile-first UI.",
+      "impact": "Demonstrates cloud-native serverless architecture with AWS Lambda, API Gateway, and DynamoDB \u2014 zero server management, pay-per-use scaling.",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AWS Lambda",
+        "AWS API Gateway",
+        "DynamoDB",
+        "AWS Cognito"
+      ],
+      "architecture": "React frontend \u2192 AWS API Gateway \u2192 Lambda functions \u2192 DynamoDB for expense storage \u2192 AWS Cognito for authentication \u2192 CloudWatch for monitoring \u2192 S3 + CloudFront for static hosting.",
+      "challenges": "Designing efficient DynamoDB data models for fast expense queries by date range and category. Cold start optimization for Lambda functions.",
+      "demo_url": "",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "",
+      "scalability": "Fully serverless \u2014 scales to zero when idle, handles spikes automatically. DynamoDB auto-scales read/write capacity.",
+      "future": "Bank statement CSV import, AI-powered spending insights, budget alerts, investment tracking integration."
+    },
+    {
+      "name": "Inventory Management System with AI Agents",
+      "slug": "inventory-ai-agents",
+      "category": "AI Agents + Java",
+      "priority": "beginner",
+      "description": "An intelligent Java-based inventory system powered by 6 autonomous agents that monitor stock levels, trigger reorder alerts, automate sales decisions, and manage restocking efficiently. Each agent handles specialized tasks including threshold tracking, predictive ordering, and notification services.",
+      "impact": "Demonstrates multi-agent system design principles \u2014 autonomous decision making, inter-agent communication, and automated inventory workflow.",
+      "tech_stack": [
+        "Python",
+        "Flask",
+        "AWT",
+        "MySQL",
+        "AI Agent-Based Modeling",
+        "AI Agents"
+      ],
+      "architecture": "6 autonomous agents: Stock Monitor Agent \u2192 Threshold Alert Agent \u2192 Reorder Decision Agent \u2192 Supplier Communication Agent \u2192 Sales Analytics Agent \u2192 Notification Agent. Agents communicate via shared message queue in MySQL.",
+      "challenges": "Coordinating 6 agents without deadlocks or race conditions. Designing agent communication protocols that handle concurrent inventory updates safely.",
+      "demo_url": "",
+      "github_url": "https://github.com/venkatesh1545",
+      "github_repo": "",
+      "scalability": "Agent-based design allows adding new specialized agents without modifying existing ones.",
+      "future": "ML-based demand forecasting, real supplier API integration, web dashboard for agent monitoring."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer Associate",
+      "issuer": "Amazon Web Services",
+      "year": 2025,
+      "credential_id": "2b5f9617cb9845919ab560417835ec79",
+      "credential_url": "https://drive.google.com/file/d/1rbG31GfhcFeFVSYfZmlWIhVMgvjY0wND/view?usp=sharing",
+      "skills_gained": "Developing and deploying cloud-native applications on AWS. Core services include Lambda, API Gateway, DynamoDB, S3, SQS, SNS, Elastic Beanstalk, CodePipeline, CodeDeploy, and CodeBuild. Deep knowledge of IAM roles and policies, environment configuration, debugging with CloudWatch, and architecting serverless solutions."
+    },
+    {
+      "name": "Red Hat Certified System Administrator - RHCSA",
+      "issuer": "Red Hat",
+      "year": 2024,
+      "credential_id": "240-110-882",
+      "credential_url": "https://drive.google.com/file/d/1CzetFoKzw8B5NK1cIxFEg7Pp5mFBP36o/view?usp=sharing",
+      "skills_gained": "Linux system administration on Red Hat Enterprise Linux (RHEL). Covers user and group management, file permissions and ACLs, SELinux configuration, systemd service management, LVM storage management, network configuration with nmcli, firewalld, package management with DNF/YUM, shell scripting automation, and container management with Podman."
+    },
+    {
+      "name": "GitHub Administration",
+      "issuer": "GitHub",
+      "year": 2025,
+      "credential_id": "lMQ2VLIK",
+      "credential_url": "https://www.credly.com/go/lMQ2VLIK",
+      "skills_gained": "Enterprise-scale GitHub organization and repository administration. Branch protection rules, CODEOWNERS enforcement, team permissions and SAML SSO, GitHub Actions CI/CD pipeline management, Dependabot security automation, secret scanning, audit log analysis, and best practices for managing repositories at scale across large engineering teams."
+    },
+    {
+      "name": "ServiceNow Certified Application Developer - CAD",
+      "issuer": "ServiceNow",
+      "year": 2026,
+      "credential_id": "27148245",
+      "credential_url": "https://drive.google.com/file/d/13H7itRTXUCV1-SPh3A2n8c5y8R8tGGYZ/view?usp=sharing",
+      "skills_gained": "Building and deploying custom scoped applications on the ServiceNow Now Platform. Custom table and data model design, Business Rules, Client Scripts, Script Includes, UI Policies, Flow Designer automation, REST and SOAP integration patterns, Application Portfolio Management, and enterprise application delivery best practices."
+    },
+    {
+      "name": "ServiceNow Certified System Administrator - CSA",
+      "issuer": "ServiceNow",
+      "year": 2026,
+      "credential_id": "27133296",
+      "credential_url": "https://drive.google.com/file/d/11J0fS37U2dptyN9hk6EbloFB-KdvL93f/view?usp=sharing",
+      "skills_gained": "Full administration of the ServiceNow platform including user/group management, Access Control Lists (ACLs), CMDB fundamentals, ITSM workflow configuration (Incident, Change, Problem Management), Service Catalog design, update set management and deployment, import sets, scheduled jobs, email notifications, and platform health monitoring."
+    }
+  ],
+  "achievements": [
+    {
+      "type": "hackathon",
+      "title": "Top 30 in India \u2014 Adobe GenSolve Hackathon 2024",
+      "description": "Ranked in the Top 30 across entire India out of 100,000+ participants. Built CURVETOPIA \u2014 an AI-powered 2D curve analysis and shape classification system achieving 90%+ accuracy on Adobe's test dataset.",
+      "year": 2024,
+      "organization": "Adobe"
+    },
+    {
+      "type": "hackathon",
+      "title": "Top 50 Teams \u2014 Amdocs Hackathon 2025",
+      "description": "Selected as a Top 50 team for building ElevateEd \u2014 an AI-powered interactive learning platform that reduces document reading time by 50% using HuggingFace transformer models for intelligent summarization.",
+      "year": 2025,
+      "organization": "Amdocs"
+    },
+    {
+      "type": "government_project",
+      "title": "SEED Project \u2014 Andhra Pradesh State Government",
+      "description": "Built DroneX (RavNResQ) as a SEED project for the Government of Andhra Pradesh \u2014 an AI-powered disaster management platform combining live drone streaming, AWS Rekognition object detection, and Ollama LLM for emergency response coordination.",
+      "year": 2024,
+      "organization": "Government of Andhra Pradesh, India"
+    },
+    {
+      "type": "entrepreneurship",
+      "title": "XpressPrints MVP \u2014 40+ Orders, \u20b910,000+ Revenue",
+      "description": "Validated the XpressPrints printing marketplace MVP in a Tier-3 city with 40+ real customer orders and over \u20b910,000 in revenue. Commission-based model designed for multi-city expansion.",
+      "year": 2024,
+      "organization": "Self-Founded"
+    },
+    {
+      "type": "leadership",
+      "title": "Technical Lead \u2014 College AI/ML Club",
+      "description": "Led a 15-member club, organized 8 workshops on ML fundamentals, RAG pipelines, and prompt engineering. Mentored 30+ juniors on their first AI and cloud projects.",
+      "year": 2023,
+      "organization": "Aditya College of Engineering and Technology"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Research Associate",
+      "company": "Keywords Studios \u2014 Bangalore",
+      "duration": "Jan 2026 \u2013 Present",
+      "description": "Building a RAG-based internal knowledge base system for enterprise use. Reduced document retrieval time by 70% through FAISS semantic search. Integrated Claude API for natural language query interface enabling non-technical employees to query complex documentation in plain English.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "FAISS",
+        "Claude API",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Full Stack Developer Intern",
+      "company": "StartupXYZ",
+      "duration": "Jun 2023 \u2013 Dec 2023",
+      "description": "Built REST APIs for a fintech SaaS product serving 500+ users. Designed PostgreSQL schema with normalized data models, implemented Redis caching that reduced API latency by 45%. Containerized services with Docker and deployed on AWS ECS with auto-scaling.",
+      "tech": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS ECS"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech in Computer Science & Engineering",
+    "institution": "Aditya College of Engineering and Technology",
+    "year": "2022 \u2013 2026",
+    "cgpa": "8.0/10",
+    "relevant_courses": [
+      "Data Structures & Algorithms",
+      "Machine Learning",
+      "Cloud Computing",
+      "Database Management Systems",
+      "Operating Systems",
+      "Computer Networks",
+      "Software Engineering"
+    ]
+  },
+  "interests": {
+    "technical": [
+      "Large Language Models and RAG pipeline engineering",
+      "Multi-agent AI systems and autonomous decision making",
+      "Computer vision for real-world emergency and safety applications",
+      "Cloud-native and serverless architecture design",
+      "Open source AI tooling and developer infrastructure"
+    ],
+    "career": [
+      "AI/ML Engineer building systems that solve real societal problems",
+      "Full-stack AI product engineering at a product-focused startup or deep tech company",
+      "Building AI infrastructure that scales to millions of users in production"
+    ],
+    "learning": [
+      "Currently studying: Multimodal AI \u2014 vision and language model fusion",
+      "Reading: Designing Machine Learning Systems by Chip Huyen",
+      "Exploring: LLM fine-tuning with LoRA and QLoRA on domain-specific data"
+    ]
+  },
+  "personality_traits": [
+    "Builder mindset: I ship real products \u2014 XpressPrints has real revenue, DroneX serves a real government",
+    "Growth-oriented: every challenge is a gap I want to close \u2014 I see problems as product opportunities",
+    "First-principles thinker: I understand the why before writing a single line of code",
+    "Full ownership: I treat every project like it's my own startup \u2014 from architecture to deployment",
+    "Fast learner: picked up TypeScript, Supabase, and AWS Rekognition from scratch for the DroneX project in under 2 weeks",
+    "Flexible and mobile: I'm open to relocate anywhere in India or internationally for the right opportunity \u2014 location has never been a barrier for me."
+  ],
+  "competency": {
+    "overview": "I believe consistency builds excellence. Here are my competitive programming profiles that reflect my problem-solving discipline and algorithmic thinking.",
+    "leetcode": {
+      "platform": "LeetCode",
+      "username": "venkatesh1545",
+      "profile_url": "https://leetcode.com/u/venkatesh1545/",
+      "problems_solved": 150,
+      "easy_solved": 70,
+      "medium_solved": 65,
+      "hard_solved": 15,
+      "global_ranking": "Top 25%",
+      "badges": [
+        "50 Days Badge 2024",
+        "100 Days Badge"
+      ],
+      "streak_days": 100,
+      "contest_rating": 1450,
+      "note": "Update all stats from leetcode.com/u/venkatesh1545"
+    },
+    "geeksforgeeks": {
+      "platform": "GeeksForGeeks",
+      "username": "venkatesh1545",
+      "profile_url": "https://www.geeksforgeeks.org/user/venkatesh1545/",
+      "problems_solved": 200,
+      "score": 1500,
+      "coding_score": 800,
+      "institute_rank": "Top 10 in College",
+      "streak_days": 50,
+      "badges": [
+        "Problem Solver",
+        "Consistent Coder"
+      ],
+      "note": "Update from geeksforgeeks.org/user/venkatesh1545"
+    },
+    "codechef": {
+      "platform": "CodeChef",
+      "username": "venkatesh1545",
+      "profile_url": "https://www.codechef.com/users/venkatesh1545",
+      "current_rating": 1400,
+      "max_rating": 1450,
+      "stars": "2 Star",
+      "global_rank": "Top 30%",
+      "country_rank": "Top 20% in India",
+      "contests_participated": 20,
+      "problems_solved": 80,
+      "note": "Update from codechef.com/users/venkatesh1545"
+    },
+    "codeforces": {
+      "platform": "Codeforces",
+      "username": "venkatesh1545",
+      "profile_url": "https://codeforces.com/profile/venkatesh1545",
+      "current_rating": 900,
+      "max_rating": 950,
+      "rank": "Newbie",
+      "max_rank": "Newbie",
+      "contests_participated": 10,
+      "problems_solved": 60,
+      "note": "Update from codeforces.com/profile/venkatesh1545"
+    },
+    "summary": "Across all platforms, I've solved 400+ problems covering arrays, dynamic programming, graphs, trees, and system design. My focus is on writing clean, optimal solutions \u2014 not just passing test cases."
+  }
+}
