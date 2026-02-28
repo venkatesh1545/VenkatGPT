@@ -10,7 +10,7 @@ python-multipart==0.0.9
 anthropic==0.29.0
 
 # Vector Store
-faiss-cpu==1.8.0
+faiss-cpu==1.13.0
 
 # Embeddings
 sentence-transformers==3.0.0
